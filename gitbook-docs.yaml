@@ -5,15 +5,15 @@ site:
     - type: section
       key: section-1
       title: Accueil
-      path: home
+      path: accueil
       description: ""
       icon: house
       default: true
       children:
         - type: space
           key: space-1
-          title: Home
-          path: home
+          title: Accueil
+          path: accueil
           default: true
           content:
             directory: ./home
@@ -26,7 +26,7 @@ site:
         - type: space
           key: space-6
           title: Prise en main
-          path: product-docs
+          path: prise-en-main
           default: true
           content:
             directory: ./prise-en-main
@@ -39,8 +39,8 @@ site:
       children:
         - type: space
           key: space-2
-          title: Documentation
-          path: documentation
+          title: Guide administrateur
+          path: guide-administrateur
           default: true
           content:
             directory: ./guide-administrateur
@@ -53,7 +53,7 @@ site:
         - type: space
           key: space-4
           title: Guide instructeur
-          path: product-docs
+          path: guide-instructeur
           default: true
           content:
             directory: ./guide-instructeur
@@ -66,34 +66,34 @@ site:
         - type: space
           key: space-5
           title: Guide usager
-          path: product-docs
+          path: guide-usager
           default: true
           content:
             directory: ./guide-usager
     - type: section
       key: section-3
       title: Centre d'aide
-      path: help-center
+      path: centre-d-aide
       description: ""
       icon: life-ring
       children:
         - type: space
           key: space-3
-          title: Help Center
-          path: help-center
+          title: Centre d'aide
+          path: centre-d-aide
           default: true
           content:
             directory: ./help-center
     - type: section
       key: section-7
-      title: Reference API
-      path: reference
+      title: Référence API
+      path: reference-api
       description: ""
       children:
         - type: space
           key: space-7
-          title: Reference
-          path: reference
+          title: Référence API
+          path: reference-api
           default: true
           content:
             directory: ./reference
