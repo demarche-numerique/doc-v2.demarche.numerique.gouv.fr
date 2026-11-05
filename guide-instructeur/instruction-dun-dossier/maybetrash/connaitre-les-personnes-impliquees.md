@@ -1,2 +1,0 @@
-# Connaitre les personnes impliquées
-
