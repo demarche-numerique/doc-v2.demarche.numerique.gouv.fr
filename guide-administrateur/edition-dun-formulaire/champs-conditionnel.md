@@ -12,21 +12,27 @@ Voici un exemple d’utilisation du conditionnel :
 
 1\) Le premier champ : le conditionnel ne s’applique pas sur le premier champ. La conditionnalité s’affichera à partir du deuxième champ.
 
-Pour que le conditionnel fonctionne, il faut que le champ précédant la question conditionnée soit de l'un des types suivants :
+Une condition peut porter sur **n’importe quel champ placé avant** la question conditionnée, et pas seulement sur le champ qui la précède. Ce champ doit être de l’un des types suivants :
 
 * Oui/Non
 * Case à cocher seule
-* Nombre décimal
 * Nombre entier
+* Nombre décimal
 * Choix simple
 * Choix multiple
 * Adresse
-* Départements
 * Communes
+* Départements
 * Régions
+* Pays
 * EPCI
+* Champ pré-rempli
 
-Le conditionnel ne fonctionne pas sur tous les types de champs.
+Les autres types de champ ne peuvent pas servir de condition.
+
+{% hint style="info" %}
+Un champ « Choix simple » ou « Choix multiple » dont les options sont importées depuis un référentiel ne peut pas servir de condition.
+{% endhint %}
 
 Voici un exemple en utilisant un champ oui/non
 
@@ -48,3 +54,12 @@ Etape 3 : Sélectionner le champ cible (la question) que vous souhaitez conditio
 <figure><img src="../.gitbook/assets/Conditionnel 3.png" alt=""><figcaption></figcaption></figure>
 
 Sélectionnez la valeur qui conditionne le champ (oui pour afficher la question, non pour ne pas l’afficher)
+
+## Combiner plusieurs conditions
+
+Vous pouvez ajouter plusieurs conditions sur un même champ. À partir de la deuxième condition, choisissez comment elles se combinent :
+
+* **ET** : le champ s’affiche si toutes les conditions sont remplies ;
+* **OU** : le champ s’affiche si au moins une des conditions est remplie.
+
+Le même choix, ET ou OU, s’applique à toutes les conditions du champ.
