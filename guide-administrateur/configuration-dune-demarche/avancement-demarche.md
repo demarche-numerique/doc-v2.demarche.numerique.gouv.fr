@@ -4,13 +4,14 @@ Il convient désormais de penser d’un point de vue usager à la vie de la dém
 
 ## Les e-mails automatiques
 
-3 types d’e-mails sont envoyés automatiquement. Chaque catégorie correspond à un moment clé d’une démarche :
+Six modèles d’e-mail sont envoyés automatiquement à l’usager. Chacun correspond à un moment clé du dossier :
 
-* Suite à la transmission de son dossier, l'usager reçoit un **accusé de réception**.
-* Lorsque l’instructeur décide de bloquer la possibilité pour l'usager de modifier son dossier, ce dernier reçoit un accusé de **passage en instruction**.
-* Lorsque l’instructeur rend une décision sur le dossier, l’usager peut recevoir soit un accusé d'**acceptation** soit de **rejet** ou encore de **classement sans suite**
+* **Accusé de réception** : après le dépôt du dossier. Une attestation de dépôt est jointe. L’usager peut encore modifier son dossier.
+* **Accusé de passage en instruction** : lorsque l’instructeur passe le dossier en instruction, ou à la clôture automatique de la démarche si vous avez fixé une date limite de dépôt. L’usager ne peut plus modifier son dossier.
+* **Accusé d’acceptation**, **Accusé de refus** et **Accusé de classement sans suite** : lorsque l’instructeur rend sa décision.
+* **Réexamen du dossier** : lorsque l’instructeur repasse le dossier en instruction après qu’une décision a été rendue.
 
-Ces e-mails sont entièrement personnalisables. Vous pouvez décider de l’objet et du corps de l’e-mail. Pour cela, cliquez sur l'onglet « E-mails » dans la barre latérale de gauche. Vous avez alors une première barre pour l’objet puis une zone de texte où vous pouvez rédiger le corps de votre e-mail.
+Ces e-mails sont entièrement personnalisables. Depuis la page de votre démarche, cliquez sur la tuile **« Modèles d’email »**. Pour chaque modèle, cliquez sur **« Modifier »** : vous pouvez alors rédiger l’objet et le corps de l’e-mail, et vérifier le résultat dans l’aperçu.
 
 <figure><img src="../.gitbook/assets/Capture d’écran 2025-10-21 à 12.22.06.png" alt=""><figcaption></figcaption></figure>
 
@@ -23,6 +24,29 @@ Exemple : j’ai un champ adresse et j’utilise ma balise adresse dans mon corp
 Les balises sont notamment utiles pour remonter les annotations privées car elles peuvent transmettre directement les commentaires renseignés par l’instructeur à l’usager.
 
 <figure><img src="../.gitbook/assets/image (186).png" alt=""><figcaption><p>Exemple de balises possibles, en tant qu'administrateur</p></figcaption></figure>
+
+### Démarche déclarative
+
+Dans une démarche déclarative, le dossier passe automatiquement en instruction, ou au statut « accepté », dès son dépôt. Ce réglage se trouve dans les options avancées de la présentation de la démarche.
+
+Pour que l’usager ne reçoive pas deux e-mails à la suite, l’accusé de réception est alors remplacé par un modèle combiné :
+
+* **Accusé de réception avec passage automatique en instruction** ;
+* **Accusé de réception avec passage automatique au statut « accepté »**.
+
+Les autres modèles ne servent plus que si un instructeur intervient ensuite sur le dossier, par exemple pour le réexaminer. La description de chaque modèle, sur la page « Modèles d’email », précise quand il est envoyé.
+
+{% hint style="warning" %}
+Si vous changez le réglage « Démarche déclarative », l’accusé de réception que vous aviez personnalisé est supprimé et remplacé par le modèle adapté au nouveau réglage. Les autres modèles d’e-mail sont conservés. Un avertissement s’affiche lorsque vous modifiez ce réglage.
+{% endhint %}
+
+Certaines démarches déclaratives plus anciennes envoient encore l’accusé de réception classique suivi d’un second e-mail. Un bandeau le signale sur la page « Modèles d’email ». Cliquez sur **« Passer à la nouvelle version »** pour utiliser le modèle combiné : seul l’accusé de réception personnalisé est supprimé et remplacé par le modèle standard, vos autres modèles personnalisés sont conservés.
+
+### Avec l’accusé de lecture
+
+Si l’[accusé de lecture](config-accuse-lecture.md) est activé, les e-mails d’acceptation, de refus et de classement sans suite ne sont pas modifiables, afin que la décision finale reste masquée pour l’usager.
+
+Dans une démarche déclarative avec passage automatique au statut « accepté », l’accusé de réception envoyé au dépôt annonce toutefois l’acceptation à l’usager.
 
 ## Les attestations
 
