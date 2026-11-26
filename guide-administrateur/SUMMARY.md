@@ -32,6 +32,7 @@
 * [Ajouter des règles d'inéligibilité](configuration-dune-demarche/ajouter-des-regles-dineligibilite.md)
 * [Proposer des annotations privées réservées aux instructeurs](configuration-dune-demarche/annotations-privees.md)
 * [Informer l'usager sur l'état d'avancement de sa démarche](configuration-dune-demarche/avancement-demarche.md)
+* [Gérer les administrateurs de la démarche](configuration-dune-demarche/administrateurs.md)
 * [Nommer les instructeurs](configuration-dune-demarche/nommer-instructeurs.md)
 * [Utiliser le routage](configuration-dune-demarche/routage.md)
 * [Gérer des "avis experts invités](configuration-dune-demarche/avis-experts.md)
